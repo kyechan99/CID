@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Include">
+      <UniqueIdentifier>{61260b8a-9b04-472e-b896-8aa08995a267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{1b30f294-67a5-407a-8eb2-9a4390473a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CIDLib">
+      <UniqueIdentifier>{e1df8ffc-1d60-4200-8f58-d099ea05578f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CIDLib\Admin">
+      <UniqueIdentifier>{491f6eeb-7b5f-498b-987a-271672b93294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CIDLib\Node">
+      <UniqueIdentifier>{2510231a-40e8-4587-86f3-331527948790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Classes">
+      <UniqueIdentifier>{0152982b-67fe-4c03-a9cd-9ebaa4f1c237}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Include.h">
+      <Filter>소스 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Define.h">
+      <Filter>소스 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\stdafx.h">
+      <Filter>소스 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\Manager.h">
+      <Filter>CIDLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\CSingleton.h">
+      <Filter>CIDLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\CID.h">
+      <Filter>CIDLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\GraphicAdmin.h">
+      <Filter>CIDLib\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\SceneAdmin.h">
+      <Filter>CIDLib\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\Node.h">
+      <Filter>CIDLib\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\Scene.h">
+      <Filter>CIDLib\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\HelloWorldScene.h">
+      <Filter>소스 파일\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\Sprite.h">
+      <Filter>CIDLib\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\SoundAdmin.h">
+      <Filter>CIDLib\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\InGameScene.h">
+      <Filter>소스 파일\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDLib\Label.h">
+      <Filter>CIDLib\Node</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDLib\Manager.cpp">
+      <Filter>CIDLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDLib\GraphicAdmin.cpp">
+      <Filter>CIDLib\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDLib\SceneAdmin.cpp">
+      <Filter>CIDLib\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDLib\Scene.cpp">
+      <Filter>CIDLib\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDLib\Node.cpp">
+      <Filter>CIDLib\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\HelloWorldScene.cpp">
+      <Filter>소스 파일\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDLib\Sprite.cpp">
+      <Filter>CIDLib\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDLib\SoundAdmin.cpp">
+      <Filter>CIDLib\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\InGameScene.cpp">
+      <Filter>소스 파일\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDLib\Label.cpp">
+      <Filter>CIDLib\Node</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
