@@ -17,7 +17,7 @@ Sprite* Sprite::create(std::string path)
 		D3DPOOL_MANAGED,
 		0x0000001,
 		0x0000001,
-		0x00FFFFFF,
+		0x00FFFFF,
 		&sprite->m_nInfo,
 		NULL,
 		&sprite->m_npTexture
